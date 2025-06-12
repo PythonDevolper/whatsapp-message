@@ -1,12 +1,12 @@
 from twilio.rest import Client
 
 def send_whatsapp_message():
-    account_sid = 'AC579ab71b24af61e3263cb19eee3e7531'  # Your Account SID
-    auth_token = 'c096283206184273647a66a7bad084e8'      # Your Auth Token
+    account_sid = '00000'  # Your Account SID
+    auth_token = '000000'      # Your Auth Token
     client = Client(account_sid, auth_token)
 
-    twilio_whatsapp_number = 'whatsapp:+14155238886'  # Your Twilio number
-    recipient_whatsapp_number = 'whatsapp:+923069822189'  # Your number
+    twilio_whatsapp_number = 'whatsapp:+000000'  # Your Twilio number
+    recipient_whatsapp_number = 'whatsapp:+00000'  # Your number
 
     message_body = "Do your work at time and Don't waste your time that is a message from your Soul."
 
